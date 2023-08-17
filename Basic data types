@@ -1,0 +1,16 @@
+// Basic data types
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+int main()
+{
+    int a;
+    long b;
+    char c;
+    float d;
+    double k;
+    scanf("%d %ld %c %f %lf",&a,&b,&c,&d,&k);
+    printf("%d\n%ld\n%c\n%f\n%lf\n",a,b,c,d,k);
+    return 0;
+}
